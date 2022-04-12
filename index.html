@@ -10,7 +10,36 @@
     
     <h1 id="title">Selecciona tu pokemon</h1>
     <dir>
-    <input type="text" id="pokemon">
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex api</title>
+</head>
+<body style="text-align: center;" >
+    
+    <h1 id="title">Selecciona tu pokemon</h1>
+    <dir>
+    <input type="text" style="width:200px;height:15px" placeholder="Ingresa el nombre o numero" id="pokemon">
+    <button id="buscar"  >Buscar</button>
+    </dir>
+    <h2 id="mostrarPokemon"></h2>
+    <h3 id="datosPokemon"></h3>
+   <div>
+    <h3 id="peso"></h3>
+</div>
+    <h3 id="stat"></h3>
+    <h3 id="tipo"></h3>
+    <div id="imgPokemon">
+
+        <div data-poke-img-container class="img-container">
+    <img data-poke-img class="poke-img"  style="height:150px;" src="poke-shadow.png"/>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
     <button id="buscar" >Buscar</button>
     </dir>
     <h2 id="mostrarPokemon"></h2>
